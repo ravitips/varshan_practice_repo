@@ -1,3 +1,5 @@
+print("Creating file")
 f = open("testfile.txt", "w")
 f.write("Hello, world!")
-f.close() 
+f.close()
+print("file created successfully") 
